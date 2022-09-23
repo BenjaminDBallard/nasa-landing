@@ -1,28 +1,120 @@
+      
+        /* GENERAL */
+
 body{
-margin: 20px;
+margin: 0;
 padding: 0;
+font-family: 'Roboto', sans-serif;
 }
 
-.image-background{
+        /* TITLE CONTAINER */
+
+.image-container{
     display: flex;
     width: 850px;
-    
+    height: 450px;
+    justify-content: center;
+    margin: 60px auto 0;
+    padding: 0;
 }
 
-.imgb{
+.image{
     width: 850px;
+    height: 450px;
+    object-fit: cover;
 }
 
-/* CONTACT FORM SECTION */
+.title-container{
+    display: flex;
+    position: absolute;
+    height: 450px;
+}
+
+.title{
+    color: white;
+    margin: auto;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+        /* CONTACT FORM CONTAINER -- GENERAL */
 
 .contact-form{
-    background-color: gray;
+    background-color: #E6E6E6;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     width: 850px;
     height: 324px;
+    margin: 20px auto;
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
     width: 270px;
+}
+
+.sub-title{
+    font-size: 17px;
+    margin: 20px 20px 0;
+}
+
+.content{
+    color: #6F6F6F;
+    font-size: 12px;
+    padding-left: 0;
+    margin: 20px;
+    
+}
+
+        /* SOCIAL MEDIA + OFFICE INFO */
+
+.list-item{
+    list-style-type: none;
+    padding: 0;
+    line-height: 25px;
+}
+
+.link{
+    text-decoration: none;
+    color:  #6F6F6F;
+}
+
+.link:hover{
+    color: black;
+}
+
+        /* CONTACT US */
+
+.input{
+    width: 230px;
+    border-style: none;
+    margin: 3px 0 10px;
+    padding: 0;
+}
+
+.name{
+    height: 25px;
+}
+
+.message{
+    resize: none;
+}
+
+.btn{
+    background-color: #4D4D4D;
+    border-style: none;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 900;
+}
+
+.btn:hover{
+    background-color:black;
+}
+
+.btn:active{
+    background-color:white;
+    color: black;
+    transition: .2s;
 }
